@@ -31,7 +31,6 @@ This approach transforms adaptive sampling from a heuristic into a principled op
 * This repository includes a custom JAX implementation of the **Self-Scaled Broyden (SSBroyden)** optimizer from Urbán et al..
 * Our implementation is designed for **GPU acceleration**, overcoming the performance bottlenecks of the original CPU-bound SciPy version.
 * It features a robust **three-stage fallback line search**, making it stable and effective for the challenging, ill-conditioned loss landscapes found in PINNs.
-
 ---
 
 ## Getting Started
@@ -41,9 +40,3 @@ This approach transforms adaptive sampling from a heuristic into a principled op
 * NumPy
 * Matplotlib (for visualizations)
 
-### Installation
-Clone the repository and install the required packages:
-```bash
-git clone [https://github.com/your-username/Variational-Residual-Based-Attention.git](https://github.com/your-username/Variational-Residual-Based-Attention.git)
-cd Variational-Residual-Based-Attention
-pip install -r requirements.txt
