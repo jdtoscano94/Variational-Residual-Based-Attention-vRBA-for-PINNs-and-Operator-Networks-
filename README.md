@@ -1,4 +1,4 @@
-# A Variational Framework for Residual-Based Adaptivity (vRBA)
+# A Principled Framework for Residual-Based Adaptivity (vRBA)
 
 
 This repository contains the official JAX implementation for the paper: **A Variational Framework for Residual-Based Adaptivity in Neural PDE Solvers and Operator Learning**.
