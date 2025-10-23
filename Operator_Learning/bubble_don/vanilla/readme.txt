@@ -1,0 +1,2 @@
+activation: relu
+loss: mse
