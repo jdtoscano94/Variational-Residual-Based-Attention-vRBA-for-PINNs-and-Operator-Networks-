@@ -1,7 +1,7 @@
 # A Principled Framework for Residual-Based Adaptivity (vRBA)
 
 
-This repository contains the official JAX implementation for the paper: **A Variational Framework for Residual-Based Adaptivity in Neural PDE Solvers and Operator Learning**.
+This repository contains the official JAX implementation for the paper: **A Principled Framework for Residual-Based Adaptivity in Neural PDE Solvers and Operator Learning**.
 
 This code provides a JAX-native implementation of **vRBA**, a principled adaptive sampling and weighting method for PINNs and Neural Operators. It also includes a custom, high-performance **SSBroyden optimizer** for second-order training to accelerate convergence and achieve state-of-the-art accuracy.
 
