@@ -35,8 +35,60 @@ This approach transforms adaptive sampling from a heuristic into a principled op
 
 ## Getting Started
 
+### Data Availability
+
+All datasets for the Operator Learning examplesare available on Google Drive:
+
+[**Download Data Here (Google Drive)**](https://drive.google.com/drive/folders/1IiSt-g_Vs0wKcSbvzgnwCFTBP_v75Tc-?usp=drive_link)
+
+#### Instructions
+
+1.  Download the data from the link above.
+2.  The downloaded folder contains several subfolders 
+3.  Unzip the files.
+4.  Move the contents of *each* of these subfolders into the corresponding, identically-named folder within this project repository.
+
+For example, the 'data' folder from the downloaded `wave_tcunet` folder should be placed into the `wave_tcunet` folder in this repository.
+
 ### Prerequisites
-* JAX
+
+This project has two sets of requirements. The core vRBA framework and PINN experiments are built in JAX, while the operator learning benchmarks (FNO, TC-UNet, etc.) are built in PyTorch.
+
+#### 1. JAX Environment (Core & PINNs)
+
+This environment is used for all PINN experiments and the core vRBA logic.
+
+**⚠️ Critical JAX Version Requirement:**
+It is **essential** to use the specified JAX versions. Our repository includes a custom, high-performance SSBroyden optimizer that was adapted from files within the `jax.scipy` library. Using a different version of `jax` or `jaxlib` than specified *will* lead to errors.
+
+We recommend installing the following exact versions:
+
+```
+jax==0.6.0
+jax-cuda12-pjrt==0.6.0
+jax-cuda12-plugin==0.6.0
+jaxlib==0.6.0
+jaxopt==0.8.5
+jaxtyping==0.3.2
+```
+
+#### 2. PyTorch Environment (Operator Learning)
+
+For running the operator learning tasks, you will need a separate environment with PyTorch and related libraries.
+
+Key requirements include:
+
+```
+torch==2.7.0
+tensorly-torch==0.5.0
+torch_harmonics==0.7.3
+torchaudio==2.7.0
+torchinfo==1.8.0
+torchvision==0.22.0
+```
+
+#### 3. General Dependencies
+
+Both environments will also require:
 * NumPy
 * Matplotlib (for visualizations)
-
