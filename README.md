@@ -8,14 +8,14 @@ This code provides a JAX-native implementation of **vRBA**, a principled adaptiv
 ## Citation
 
 If you use our code, please cite our work:
-
+```
 @article{toscano2025variational,
   title={A Variational Framework for Residual-Based Adaptivity in Neural PDE Solvers and Operator Learning},
   author={Toscano, Juan Diego and Chen, Daniel T and Oommen, Vivek and Darbon, J{\'e}r{\^o}me and Karniadakis, George Em},
   journal={arXiv preprint arXiv:2509.14198},
   year={2025}
 }
-
+```
 
 ---
 
