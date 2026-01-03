@@ -70,8 +70,8 @@ This project has two sets of requirements. The core vRBA framework and PINN expe
 
 This environment is used for all PINN experiments and the core vRBA logic.
 
-**⚠️ Critical JAX Version Requirement:**
-It is **essential** to use the specified JAX versions. Our repository includes a custom, high-performance SSBroyden optimizer that was adapted from files within the `jax.scipy` library. Using a different version of `jax` or `jaxlib` than specified *will* lead to errors.
+** JAX Version:**
+ Our repository includes a custom, high-performance SSBroyden optimizer that was adapted from files within the `jax.scipy` library. Using a different version of `jax` or `jaxlib` than specified *may* lead to errors.
 
 We recommend installing the following exact versions:
 
