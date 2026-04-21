@@ -1,19 +1,18 @@
 # A Principled Framework for Residual-Based Adaptivity (vRBA)
 
+> **Maintenance notice:** This code is obsolete and is no longer maintained.  
+> The final code is available here: **@jdtoscano94/NABLA-SciML**.
 
-This repository contains the official JAX implementation for the paper: **A Principled Framework for Residual-Based Adaptivity in Neural PDE Solvers and Operator Learning**.
-
-This code provides a JAX-native implementation of **vRBA**, a principled adaptive sampling and weighting method for PINNs and Neural Operators. It also includes a custom, high-performance **SSBroyden optimizer** for second-order training to accelerate convergence and achieve state-of-the-art accuracy.
-
-## Citation
-
-If you use our code, please cite our work:
-```
-@article{toscano2025variational,
-  title={A Variational Framework for Residual-Based Adaptivity in Neural PDE Solvers and Operator Learning},
-  author={Toscano, Juan Diego and Chen, Daniel T and Oommen, Vivek and Darbon, J{\'e}r{\^o}me and Karniadakis, George Em},
-  journal={arXiv preprint arXiv:2509.14198},
-  year={2025}
+```bibtex
+@article{toscano2026variational,
+  title={A variational framework for residual-based adaptivity in neural PDE solvers and operator learning},
+  author={Toscano, Juan Diego and Chen, Daniel T and Ooomen, Vivek and Darbon, J{\'e}r{\^o}me and Karniadakis, George Em},
+  journal={NPJ Artificial Intelligence},
+  volume={2},
+  number={1},
+  pages={32},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
 }
 ```
 
