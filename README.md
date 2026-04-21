@@ -1,7 +1,7 @@
 # A Principled Framework for Residual-Based Adaptivity (vRBA)
 
 > **Maintenance notice:** This code is obsolete and is no longer maintained.  
-> The final code is available here: **@jdtoscano94/NABLA-SciML**.
+> The final code is available here: [**@jdtoscano94/NABLA-SciML**.](https://github.com/jdtoscano94/NABLA-SciML.git)
 
 ```bibtex
 @article{toscano2026variational,
